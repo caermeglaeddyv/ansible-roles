@@ -1,0 +1,6 @@
+[submodule "rear"]
+	path = rear
+	url = git@github.com:caermeglaeddyv/ansible-role-rear.git
+[submodule "vmware"]
+	path = vmware
+	url = git@github.com:caermeglaeddyv/ansible-role-vmware.git
