@@ -1,30 +1,40 @@
 [submodule "rear"]
 	path = rear
 	url = https://github.com/caermeglaeddyv/ansible-role-rear.git
+	branch = dev
 [submodule "vmware"]
 	path = vmware
 	url = https://github.com/caermeglaeddyv/ansible-role-vmware.git
+	branch = dev
 [submodule "prepare_os"]
 	path = prepare_os
 	url = https://github.com/caermeglaeddyv/ansible-role-prepare_os.git
+	branch = dev
 [submodule "container_runtime"]
 	path = container_runtime
 	url = https://github.com/caermeglaeddyv/ansible-role-container_runtime.git
+	branch = dev
 [submodule "etcd"]
 	path = etcd
 	url = https://github.com/caermeglaeddyv/ansible-role-etcd.git
+	branch = dev
 [submodule "haproxy"]
 	path = haproxy
 	url = https://github.com/caermeglaeddyv/ansible-role-haproxy.git
+	branch = dev
 [submodule "keepalived"]
 	path = keepalived
 	url = https://github.com/caermeglaeddyv/ansible-role-keepalived.git
+	branch = dev
 [submodule "kubernetes"]
 	path = kubernetes
 	url = https://github.com/caermeglaeddyv/ansible-role-kubernetes.git
+	branch = dev
 [submodule "net_addon"]
 	path = net_addon
 	url = https://github.com/caermeglaeddyv/ansible-role-net_addon.git
+	branch = dev
 [submodule "no_thp"]
 	path = no_thp
 	url = https://github.com/caermeglaeddyv/ansible-role-no_thp.git
+	branch = dev
