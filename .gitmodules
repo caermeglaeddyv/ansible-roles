@@ -38,3 +38,7 @@
 	path = no_thp
 	url = https://github.com/caermeglaeddyv/ansible-role-no_thp.git
 	branch = dev
+[submodule "mongodb"]
+	path = mongodb
+	url = https://github.com/caermeglaeddyv/ansible-role-mongodb.git
+	branch = dev
