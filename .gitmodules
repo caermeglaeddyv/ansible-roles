@@ -42,3 +42,7 @@
 	path = mongodb
 	url = https://github.com/caermeglaeddyv/ansible-role-mongodb.git
 	branch = dev
+[submodule "glusterfs"]
+	path = glusterfs
+	url = https://github.com/caermeglaeddyv/ansible-role-glusterfs.git
+	branch = dev
