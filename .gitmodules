@@ -46,3 +46,11 @@
 	path = glusterfs
 	url = https://github.com/caermeglaeddyv/ansible-role-glusterfs.git
 	branch = dev
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = https://github.com/caermeglaeddyv/ansible-role-elasticsearch.git
+	branch = dev
+[submodule "kibana"]
+	path = kibana
+	url = https://github.com/caermeglaeddyv/ansible-role-kibana.git
+	branch = dev
