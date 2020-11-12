@@ -54,3 +54,7 @@
 	path = kibana
 	url = https://github.com/caermeglaeddyv/ansible-role-kibana.git
 	branch = dev
+[submodule "cfssl"]
+	path = cfssl
+	url = https://github.com/caermeglaeddyv/ansible-role-cfssl.git
+	branch = dev
