@@ -1,0 +1,16 @@
+- src: caermeglaeddyv.ansible_role_rear
+- src: caermeglaeddyv.ansible_role_vmware
+- src: caermeglaeddyv.ansible_role_prepare_os
+- src: caermeglaeddyv.ansible_role_prepare_k8s_cluster
+- src: caermeglaeddyv.ansible_role_container_runtime
+- src: caermeglaeddyv.ansible_role_no_thp
+- src: caermeglaeddyv.ansible_role_glusterfs
+- src: caermeglaeddyv.ansible_role_keepalived
+- src: caermeglaeddyv.ansible_role_haproxy
+- src: caermeglaeddyv.ansible_role_etcd
+- src: caermeglaeddyv.ansible_role_k8s_control_plane
+- src: caermeglaeddyv.ansible_role_net_addon
+- src: caermeglaeddyv.ansible_role_k8s_node
+- src: caermeglaeddyv.ansible_role_mongodb
+- src: caermeglaeddyv.ansible_role_elasticsearch
+- src: caermeglaeddyv.ansible_role_kibana

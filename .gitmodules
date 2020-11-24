@@ -1,60 +1,76 @@
-[submodule "rear"]
-	path = rear
-	url = https://github.com/caermeglaeddyv/ansible-role-rear.git
-	branch = dev
-[submodule "vmware"]
-	path = vmware
-	url = https://github.com/caermeglaeddyv/ansible-role-vmware.git
-	branch = dev
-[submodule "prepare_os"]
-	path = prepare_os
-	url = https://github.com/caermeglaeddyv/ansible-role-prepare_os.git
-	branch = dev
-[submodule "container_runtime"]
-	path = container_runtime
+[submodule "caermeglaeddyv.ansible_role_container_runtime"]
+	path = caermeglaeddyv.ansible_role_container_runtime
 	url = https://github.com/caermeglaeddyv/ansible-role-container_runtime.git
 	branch = dev
-[submodule "etcd"]
-	path = etcd
+[submodule "caermeglaeddyv.ansible_role_docker"]
+	path = caermeglaeddyv.ansible_role_docker
+	url = https://github.com/caermeglaeddyv/ansible-role-docker.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_etcd"]
+	path = caermeglaeddyv.ansible_role_etcd
 	url = https://github.com/caermeglaeddyv/ansible-role-etcd.git
 	branch = dev
-[submodule "haproxy"]
-	path = haproxy
+[submodule "caermeglaeddyv.ansible_role_haproxy"]
+	path = caermeglaeddyv.ansible_role_haproxy
 	url = https://github.com/caermeglaeddyv/ansible-role-haproxy.git
 	branch = dev
-[submodule "keepalived"]
-	path = keepalived
-	url = https://github.com/caermeglaeddyv/ansible-role-keepalived.git
-	branch = dev
-[submodule "kubernetes"]
-	path = kubernetes
-	url = https://github.com/caermeglaeddyv/ansible-role-kubernetes.git
-	branch = dev
-[submodule "net_addon"]
-	path = net_addon
-	url = https://github.com/caermeglaeddyv/ansible-role-net_addon.git
-	branch = dev
-[submodule "no_thp"]
-	path = no_thp
-	url = https://github.com/caermeglaeddyv/ansible-role-no_thp.git
-	branch = dev
-[submodule "mongodb"]
-	path = mongodb
-	url = https://github.com/caermeglaeddyv/ansible-role-mongodb.git
-	branch = dev
-[submodule "glusterfs"]
-	path = glusterfs
-	url = https://github.com/caermeglaeddyv/ansible-role-glusterfs.git
-	branch = dev
-[submodule "elasticsearch"]
-	path = elasticsearch
-	url = https://github.com/caermeglaeddyv/ansible-role-elasticsearch.git
-	branch = dev
-[submodule "kibana"]
-	path = kibana
+[submodule "caermeglaeddyv.ansible_role_kibana"]
+	path = caermeglaeddyv.ansible_role_kibana
 	url = https://github.com/caermeglaeddyv/ansible-role-kibana.git
 	branch = dev
-[submodule "cfssl"]
-	path = cfssl
+[submodule "caermeglaeddyv.ansible_role_mongodb"]
+	path = caermeglaeddyv.ansible_role_mongodb
+	url = https://github.com/caermeglaeddyv/ansible-role-mongodb.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_no_thp"]
+	path = caermeglaeddyv.ansible_role_no_thp
+	url = https://github.com/caermeglaeddyv/ansible-role-no_thp.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_rear"]
+	path = caermeglaeddyv.ansible_role_rear
+	url = https://github.com/caermeglaeddyv/ansible-role-rear.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_cfssl"]
+	path = caermeglaeddyv.ansible_role_cfssl
 	url = https://github.com/caermeglaeddyv/ansible-role-cfssl.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_elasticsearch"]
+	path = caermeglaeddyv.ansible_role_elasticsearch
+	url = https://github.com/caermeglaeddyv/ansible-role-elasticsearch.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_glusterfs"]
+	path = caermeglaeddyv.ansible_role_glusterfs
+	url = https://github.com/caermeglaeddyv/ansible-role-glusterfs.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_keepalived"]
+	path = caermeglaeddyv.ansible_role_keepalived
+	url = https://github.com/caermeglaeddyv/ansible-role-keepalived.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_prepare_k8s_cluster"]
+	path = caermeglaeddyv.ansible_role_prepare_k8s_cluster
+	url = https://github.com/caermeglaeddyv/ansible-role-prepare_k8s_cluster.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_k8s_control_plane"]
+	path = caermeglaeddyv.ansible_role_k8s_control_plane
+	url = https://github.com/caermeglaeddyv/ansible-role-k8s_control_plane.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_k8s_node"]
+	path = caermeglaeddyv.ansible_role_k8s_node
+	url = https://github.com/caermeglaeddyv/ansible-role-k8s_node.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_net_addon"]
+	path = caermeglaeddyv.ansible_role_net_addon
+	url = https://github.com/caermeglaeddyv/ansible-role-net_addon.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_weave_net"]
+	path = caermeglaeddyv.ansible_role_weave_net
+	url = https://github.com/caermeglaeddyv/ansible-role-weave_net.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_prepare_os"]
+	path = caermeglaeddyv.ansible_role_prepare_os
+	url = https://github.com/caermeglaeddyv/ansible-role-prepare_os.git
+	branch = dev
+[submodule "caermeglaeddyv.ansible_role_vmware"]
+	path = caermeglaeddyv.ansible_role_vmware
+	url = https://github.com/caermeglaeddyv/ansible-role-vmware.git
 	branch = dev
